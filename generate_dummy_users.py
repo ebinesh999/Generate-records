@@ -17,4 +17,5 @@ with open(output_file, "w", newline="", encoding="utf-8") as f:
         email = fake.email()
         writer.writerow([i, name, age, city, email])
 
-print(f"✅ Done! File saved as {output_file}")
+print(f"Done! File saved as {output_file}")
+
